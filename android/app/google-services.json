@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "241171707046",
+    "project_id": "skin-cancer-detector-5ba59",
+    "storage_bucket": "skin-cancer-detector-5ba59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241171707046:android:873ad88e6b650565e53067",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241171707046-3f3rraqcbtpd17l45iq2i6tmpa3jio8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCcpRiZWPcxJtJPDIC2a27yop5PtkWiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241171707046-3f3rraqcbtpd17l45iq2i6tmpa3jio8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
