@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "skin-cancer-detector-5ba59",
+  "private_key_id": "adddec1ae1914523ecf45cd4376a8bb7289e0641",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCvO4Qku2iHu32C\nRMJxhI/84KLS62gN7IAaNGjpwjvxwjR8qh6A2fX0th0/pV6VfCnIIfIkHrSoyYqI\nFVRjL9Q7A9OBKeKTmHB8hg4TGNxHS/6ka26vRwylAQJmGwCoiXD38zLjp47wYo43\nY/NL413AuRKtDd6F65dNiL1nvwoRGcskRcP5YyX7Kcldakd+4jM2jnII7gPGpiHX\nCFeabw8YcZ6gsxIaLIKk4Kgz0/yAoA28qFLZpZRg+3gTCTtRaqtAqq29nEwWTn+r\nP5XytEovC3d40S31TKeUifTd1LDCyX90ALOi1PXnAMAAFeBgdhcpAIY1xaqNbXV9\nf5/Gh7ErAgMBAAECggEAE88ODpry45khxIaiVnPOVR9NuLsszZolFxFCpN40qY0z\nIr6WaSl6gNnPb6DxksNw87NGrKed85Co7N5AZmADRVKW57yE5PtwB9udnrIKQLMK\nC6srXXwSJVr6WvGFfwfeceEXqR2JbootmnxdhgAjWoRxZIezVn894OFqy94QNMN+\nQ34YqCn4RJmDF4SThcESu7fpHSIusEH7GYoP1Tps0ljg0kopatTXmOpvWi6glHId\njSqtLiElL/Eu6ToVAi6VfiLxQwap0qm81n2U0MLhTioeHZHty4FrnKvrjGiMv/Ld\nI9LktORrb2MyioV4MmQnLKBeeHk5N51rv7mK7swXQQKBgQDcUe7dGbBVgKD4iK0Z\nNf6b+U92i+slPdkrwwrziPut8/Vruw4nMlJJz2msJDX7HIuaAEP3BHS7MWnUZPhp\n8nxWk0fkzwhxi7TdMMnJ9BhFKnr0foWJ/xcmTRHx53F1OcOPVsJC9MAkeDxxdPho\nAdrBvDDEZn7UqZrd1g3HqNvqQQKBgQDLnFXBocWQEN+GT/S59iTdjGOZXj9ClxVO\njiLENQiIss9VA6NxHf2x8JtGeI+n9dfO7w8VH3SQpu0PN8jU9JXHHZITqHNyRyoF\ntk/hKjYC37bgC3wpBIZKUQE9H9DIjcmwO6asiVhYJtGlwJ9+JSE/u3CSff8yVHMW\nXKP6WRrIawKBgQC6m7calIiTUxiEiZc7tE0MJRVWDlrDt2f7Nf9PmOW7R9fGQLBT\nKL8j/0a85ArIvzvK25C1Z5PLfaXqnP7/FcCUv7h0J5s6OR+e/ZTcth/cbYepEITh\nBivAaCTb5LFnnd5yyQRPG+imuyRO4MkJpxB3aYNQxpOEYodmf8g6JV7nQQKBgQC7\n2MTpesVZT6fZM4UV1/hVCcON6Hy2g8rdiZabrE3uSAGubkfpAYFgHBo1Xt8yV0a+\nHKGunDGfjtGgu5emmOxiIm71gfDYmr0zPereUmI4Lot6kj3/XbRDdg6NhP/LN7y+\nwZnZDnGaCl5a7KZ46+qL8PM/w8ygc3cmR1vliTWDdwKBgAKh6KVZXORWkH/ATfc1\nz8Mxx403Zft7UuLGaGPrHj2mmfaELlcgA+oFwSJAtzojw7TDfw9iaJDD2cQ7sIw/\nPOuWa9WhCHC5Qp+Dbpux593NcnKjJjXf1IHY93tDYht4708b2fvHQoH9QCFqlNlw\nPsJm6K+GV75CMVknQ2o6T7uA\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow123@skin-cancer-detector-5ba59.iam.gserviceaccount.com",
+  "client_id": "107339517792387209155",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow123%40skin-cancer-detector-5ba59.iam.gserviceaccount.com"
+}

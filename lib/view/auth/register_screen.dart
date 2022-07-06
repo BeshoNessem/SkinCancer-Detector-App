@@ -32,6 +32,7 @@ class _RegisterState extends State<Register> {
   var loading =false;
   var _image;
   String? _url;
+  int _value=0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +47,7 @@ class _RegisterState extends State<Register> {
                   backgroundColor: Colors.black,
                   backgroundImage: _image==null?null:FileImage(_image),
                   radius: 40,
-                  child: IconButton(icon: Icon(Icons.add_a_photo),onPressed: pickImage,),
+                  child: IconButton(icon: Icon(Icons.add_a_photo,color: Colors.white,),onPressed: pickImage,),
                 ),
               ),
             ),
@@ -118,7 +119,6 @@ class _RegisterState extends State<Register> {
                         obscureText: _obscureText,
                       ),
                     ),
-
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: SizedBox(
@@ -165,8 +165,10 @@ class _RegisterState extends State<Register> {
                                 fontWeight: FontWeight.bold, fontSize: 16),
                           ),
                         ),
+
                       ),
                     ),
+
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -184,7 +186,9 @@ class _RegisterState extends State<Register> {
                 ),
               ),
             ),
+
           ],
+
         ),
       ),
     );

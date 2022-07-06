@@ -1,0 +1,4 @@
+ Basal
+ Melanoma
+ Squamous
+ Unknown

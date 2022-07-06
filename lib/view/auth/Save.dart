@@ -49,7 +49,7 @@ class _SaveState extends State<Save> {
                     width: 70,
                       decoration: BoxDecoration(
                         color: Colors.grey[200],
-                        borderRadius: BorderRadius.circular(20),
+                        borderRadius: BorderRadius.circular(50),
                       ),
                     child: Column(
                       children: [

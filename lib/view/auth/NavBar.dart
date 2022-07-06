@@ -4,7 +4,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app/Appointmnets/SaveAppointmnet.dart';
 import 'package:flutter_app/Awareness/First.dart';
+import 'package:flutter_app/ChatBot/Chat.dart';
+import 'package:flutter_app/Doctor/Doctorlist.dart';
+import 'package:flutter_app/Doctor2/home_page.dart';
 import 'package:flutter_app/Questionnaire/main.dart';
 import 'package:flutter_app/view/auth/About.dart';
 import 'package:flutter_app/view/auth/Profile.dart';
@@ -53,9 +57,9 @@ class _NavBarState extends State<NavBar> {
       child: ListView(
         padding: EdgeInsets.zero,
         children: [
-          UserAccountsDrawerHeader(accountName:Text(name,style: TextStyle(fontSize: 23),), accountEmail: null,decoration: BoxDecoration(color: Colors.grey),
+          UserAccountsDrawerHeader(accountName:Text(name,style: TextStyle(fontSize: 23,fontWeight: FontWeight.bold,color: Colors.black),), accountEmail: null,decoration: BoxDecoration(color: Colors.grey,image:DecorationImage(image:AssetImage("assets/images/istockphoto-1310759347-612x612.jpg"),fit: BoxFit.cover)),
             currentAccountPicture: CircleAvatar(
-              radius: 30,
+              radius: 40,
               backgroundImage: NetworkImage(_url),
             ),
           ),
@@ -70,6 +74,16 @@ class _NavBarState extends State<NavBar> {
             },
           ),
           ListTile(
+            leading: Icon(Icons.camera),
+            title: Text(
+              "Detection",
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            onTap: (){
+              Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=>First()));
+            },
+          ),
+          ListTile(
             leading: Icon(Icons.history_rounded),
             title: Text(
               "History",
@@ -80,29 +94,41 @@ class _NavBarState extends State<NavBar> {
             },
           ),
           ListTile(
-            leading: Icon(Icons.question_answer),
+            leading: Icon(Icons.medical_services),
             title: Text(
-              "Questionnaire",
+              "Doctor",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             onTap: (){
-              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>App()));
+              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>HomePage()));
             },
           ),
           ListTile(
-            leading: Icon(Icons.insert_drive_file),
+            leading: Icon(Icons.home_repair_service_rounded),
             title: Text(
-              "Types of Skin Cancer",
+              "Appointments",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             onTap: (){
-              Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=>First()));
+              Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=>SaveAppointment()));
             },
           ),
+
+          ListTile(
+            leading: Icon(Icons.chat_bubble_outlined),
+            title: Text(
+              "ChatBot",
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            onTap: (){
+              Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>Chat()));
+            },
+          ),
+
           ListTile(
             leading: Icon(Icons.info),
             title: Text(
-              "About",
+              "About us",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             onTap: (){
